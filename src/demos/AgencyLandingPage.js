@@ -13,14 +13,49 @@ import FAQ from "components/faqs/SimpleWithSideImage.js";
 import ContactUsForm from "components/forms/TwoColContactUsWithIllustration.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
+import Pricing from "components/pricing/ThreePlans.js";
 
-export default () => (
+export default () => {
+  const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
+  const HighlightedText = tw.span`text-primary-500`;
+  return (
   <AnimationRevealPage>
     <Hero />
     <MainFeature />
     <Features />
     <MainFeature2 />
-
+    <Pricing
+        subheading={<Subheading>Prix</Subheading>}
+        heading={
+          <>
+            Raisonnable et Flexible <HighlightedText>Plan.</HighlightedText>
+          </>
+        }
+        plans={[
+          {
+            name: "Personal",
+            price: "$17.99",
+            duration: "Monthly",
+            mainFeature: "For Individuals",
+            features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"]
+          },
+          {
+            name: "Business",
+            price: "$37.99",
+            duration: "Monthly",
+            mainFeature: "For Small Businesses",
+            features: ["60 Templates", "15 Landing Pages", "22 Internal Pages", "Priority Assistance"],
+            featured: true
+          },
+          {
+            name: "Enterprise",
+            price: "$57.99",
+            duration: "Monthly",
+            mainFeature: "For Large Companies",
+            features: ["90 Templates", "27 Landing Pages", "37 Internal Pages", "Personal Assistance"]
+          }
+        ]}
+      />
     <Portfolio />
     <Testimonial
       subheading="Témoignage"
@@ -68,4 +103,5 @@ export default () => (
     <ContactUsForm />
     <Footer />
   </AnimationRevealPage>
-);
+)
+    };
