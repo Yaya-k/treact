@@ -65,20 +65,20 @@ export default () => {
   const cards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Ads Management",
+      title: "Maîtriser l'Anglais",
       description: "We create and manage ads that you need, from creation to deployment. Lorem ipsum donor sit amet consicou."
     },
-    { imageSrc: SupportIconImage, title: "Video Marketing" },
-    { imageSrc: CustomizeIconImage, title: "Customer Relation" },
-    { imageSrc: ReliableIconImage, title: "Product Outreach" },
-    { imageSrc: FastIconImage, title: "PR Campaign" },
-    { imageSrc: SimpleIconImage, title: "Product Expansion" }
+    { imageSrc: SupportIconImage, title: "Cours d'Anglais en Ligne" },
+    { imageSrc: CustomizeIconImage, title: "Excellence en Anglais" },
+    { imageSrc: ReliableIconImage, title: "L'Anglais à Votre Rythme" },
+    { imageSrc: FastIconImage, title: "Connectez-vous au Monde" },
+    { imageSrc: SimpleIconImage, title: "Parcours Personnalisé" }
   ];
 
   return (
     <Container>
       <ThreeColumnContainer>
-        <Heading>Our Professional <span tw="text-primary-500">Services</span></Heading>
+        <Heading>Nos Services  <span tw="text-primary-500">Professionnels</span></Heading>
         {cards.map((card, i) => (
           <Column key={i}>
             <Card>

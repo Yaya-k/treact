@@ -40,14 +40,14 @@ const DecoratorBlob = styled(SvgDotPattern)(props => [
 ]);
 
 export default ({
-  subheading = "Our Track Record",
+  subheading = "Notre Bilan de Réussite",
   heading = (
     <>
-      We have been doing this <wbr /> since <span tw="text-primary-500">1999.</span>
+      Nous offrons des cours d'anglais en ligne <wbr /> depuis <span tw="text-primary-500">1999.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  primaryButtonText = "Learn More",
+  description = "Rejoignez notre communauté pour apprendre l'anglais facilement et efficacement, grâce à nos méthodes éprouvées et à une équipe dédiée. Profitez d'un apprentissage flexible, adapté à votre rythme, avec des cours interactifs et un soutien constant. Inscrivez-vous maintenant pour élargir vos horizons et saisir de nouvelles opportunités. Notre engagement est votre réussite, avec des outils modernes et une approche personnalisée.",
+  primaryButtonText = "EN savoir plus",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = StatsIllustrationSrc,
   imageCss = null,

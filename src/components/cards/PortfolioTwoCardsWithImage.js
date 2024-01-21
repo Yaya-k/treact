@@ -57,14 +57,14 @@ const CardMetaFeature = styled.div`
 const CardAction = tw(PrimaryButtonBase)`w-full mt-6`;
 
 export default ({
-  subheading = "Our Portfolio",
+  subheading = "",
   headingHtmlComponent = (
     <>
-      We've done some <span tw="text-primary-500">amazing projects.</span>
+      Nous avons réalisé <span tw="text-primary-500">d'incroyables projets.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.",
-  linkText = "View all Projects",
+  description = "Explorez nos cours en ligne conçus pour vous offrir une expérience d'apprentissage exceptionnelle. Grâce à notre équipe de professeurs expérimentés, vous atteindrez rapidement vos objectifs en anglais..",
+  linkText = "",
   cardLinkText = "Read Case Study",
   textOnLeft = false
 }) => {
@@ -74,7 +74,7 @@ export default ({
         "https://images.unsplash.com/photo-1563461660947-507ef49e9c47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
       company: "Tesla Inc.",
       type: "Ad Campaign",
-      title: "Personalized Ad Campaign using Google AdWords",
+      title: "Des cours collectives bla bla bla",
       durationText: "90 Days Campaign",
       locationText: "New York"
     },
@@ -83,7 +83,7 @@ export default ({
         "https://images.unsplash.com/photo-1573165231977-3f0e27806045?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
       company: "Nestle",
       type: "SEO Marketing",
-      title: "Ranking #1 for keywords like Chocolate, Snack",
+      title: "Des cours pour les entreprises",
       durationText: "180 Day Campaign",
       locationText: "Palo Alto"
     }

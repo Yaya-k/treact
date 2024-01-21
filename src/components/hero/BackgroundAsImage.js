@@ -59,21 +59,21 @@ export default () => {
   const navLinks = [
     <NavLinks key={1}>
       <NavLink href="#">
-        About
+      A propos
       </NavLink>
       <NavLink href="#">
-        Blog
+      Notre Méthode
       </NavLink>
       <NavLink href="#">
-        Locations
+      Nos Professeurs
       </NavLink>
       <NavLink href="#">
-        Pricing
+      Les prix
       </NavLink>
     </NavLinks>,
     <NavLinks key={2}>
       <PrimaryLink href="/#">
-        Hire Us
+        Nous contacter
       </PrimaryLink>
     </NavLinks>
   ];
@@ -85,13 +85,13 @@ export default () => {
         <StyledHeader links={navLinks} />
         <TwoColumn>
           <LeftColumn>
-            <Notification>We have now launched operations in Europe.</Notification>
+            <Notification>Apprenez l'Anglais en Ligne : Votre Passerelle vers le Succès Mondial.</Notification>
             <Heading>
-              <span>Hire the best</span>
+              <span>Engagez les Meilleurs</span>
               <br />
-              <SlantedBackground>Marketing Team.</SlantedBackground>
+              <SlantedBackground>Maîtrisez l'Anglais</SlantedBackground>
             </Heading>
-            <PrimaryAction>Read Customer Stories</PrimaryAction>
+            <PrimaryAction>Explorez les Témoignages</PrimaryAction>
           </LeftColumn>
           <RightColumn>
             <StyledResponsiveVideoEmbed

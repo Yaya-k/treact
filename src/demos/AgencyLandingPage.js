@@ -21,15 +21,16 @@ export default () => (
     <MainFeature />
     <Features />
     <MainFeature2 />
+
     <Portfolio />
     <Testimonial
-      subheading="Testimonials"
+      subheading="Témoignage"
       heading={
         <>
-          Our Clients <span tw="text-primary-500">Love Us.</span>
+          Nos Clients <span tw="text-primary-500">Nous Adorent.</span>
         </>
       }
-      description="Here are what some of our amazing customers are saying about our marketing professionals. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      description="Voici ce que disent certains de nos clients incroyables à propos de nos professionnels du marketing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       testimonials={[
         {
           imageSrc:
@@ -61,7 +62,7 @@ export default () => (
       subheading="FAQs"
       heading={
         <>
-          Do you have <span tw="text-primary-500">Questions ?</span>
+          Vous avez des <span tw="text-primary-500">Questions ?</span>
         </>
       }
     />
